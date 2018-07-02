@@ -65,3 +65,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 group :development, :test do
   gem 'rspec-rails', '~> 3.7'
 end
+
+# Adding bootstrap gem, sprockets, and jquery
+gem 'bootstrap', '~> 4.1.1'
+gem 'sprockets-rails', :require => 'sprockets/railtie'
+gem 'jquery-rails'
