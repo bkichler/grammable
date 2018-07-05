@@ -70,3 +70,6 @@ end
 gem 'bootstrap', '~> 4.1.1'
 gem 'sprockets-rails', :require => 'sprockets/railtie'
 gem 'jquery-rails'
+
+# Adding simple form gem
+gem 'simple_form'
