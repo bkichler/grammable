@@ -73,3 +73,6 @@ gem 'jquery-rails'
 
 # Adding simple form gem
 gem 'simple_form'
+
+# Adding devise for user auth
+gem 'devise'
