@@ -76,3 +76,6 @@ gem 'simple_form'
 
 # Adding devise for user auth
 gem 'devise'
+
+# Adding FactoryBot gem for better testing automation
+gem 'factory_bot_rails', '~> 4.0'
