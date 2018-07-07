@@ -4,6 +4,13 @@ class GramsController < ApplicationController
   def index
   end
 
+  def show
+    @gram = Gram.find_by_id(params[:id])
+      if @gram.nil?
+        return render_not_found
+      end
+  end
+
   def new
     @gram = Gram.new
   end
