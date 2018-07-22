@@ -79,3 +79,10 @@ gem 'devise'
 
 # Adding FactoryBot gem for better testing automation
 gem 'factory_bot_rails', '~> 4.0'
+
+# Adding CarrierWave to support image uploading and fog for AWS
+gem 'carrierwave', '~> 1.0'
+gem 'fog-aws'
+
+# Adding Figaro to deal with credentials
+gem 'figaro'
