@@ -86,3 +86,6 @@ gem 'fog-aws'
 
 # Adding Figaro to deal with credentials
 gem 'figaro'
+
+
+ruby "2.4.1"
