@@ -61,10 +61,10 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-# # Adding rspec gem for testing
-# group :development, :test do
-#   gem 'rspec-rails', '~> 3.7'
-# end
+# Adding rspec gem for testing
+group :development, :test do
+  gem 'rspec-rails', '~> 3.7'
+end
 
 # Adding bootstrap gem, sprockets, and jquery
 gem 'bootstrap', '~> 4.1.1'
@@ -86,3 +86,5 @@ gem 'fog-aws'
 
 # Adding Figaro to deal with credentials
 gem 'figaro'
+
+# ruby "2.4.1"
